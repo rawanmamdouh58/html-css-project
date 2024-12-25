@@ -25,19 +25,14 @@ nav ul li a {
   font-weight: 550;
   padding: 25px 15px;
 }
-.category a {
-  font-size: 18px;
-  font-weight: 400;
-  color: #0b0b0bd8;
+nav ul li a {
+  text-decoration: none;
+  color: #0d330e;
+  transition: background 0.3s ease, color 0.3s ease;
 }
-
-nav ul li a:hover,
-.category a:hover {
+nav ul li a:hover {
   color: beige;
   background-color: #0d330ebf;
-}
-.category a:hover {
-  color: black;
 }
 .navbar img {
   width: 80px;
@@ -218,9 +213,8 @@ nav .navbar .logo {
 
 .info .mem1 {
   padding-top: 20px;
-  height: fit-content;
+  height: 30;
   width: 300px;
-  /* overflow: hidden; */
 }
 .info .mem1:hover {
   box-shadow: 10px 10px 10px 3px;
@@ -231,11 +225,8 @@ nav .navbar .logo {
   padding: 10px 80px;
   width: fit-content;
   height: 200px;
-  /* background-color: #e7eae3; */
   display: flex;
   justify-content: center;
-  /* border: solid 2px #e7eae3;
-  border-radius: 20px; */
 }
 .info .mem1 .i img {
   width: 100%;
@@ -260,10 +251,6 @@ nav .navbar .logo {
   color: black;
 }
 /************************************************/
-table {
-  background-color: aqua;
-  width: 100%;
-}
 
 table tr .th1 {
   padding: 20px 200px 20px 10px;
@@ -274,13 +261,19 @@ table tr .th2 {
 }
 .category li::before {
   content: " > ";
-  color: #0d330e;
-  font-weight: bold;
+  color: black;
+  font-weight: 570;
   margin-right: 15px;
 }
-nav ul li a,
+
 .category a {
-  text-decoration: none;
-  color: #0d330e;
+  color: black;
   transition: background 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.category a:hover {
+  color: rgb(143, 8, 8);
 }
