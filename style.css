@@ -71,6 +71,7 @@ nav .navbar .logo {
   text-align: center;
 }
 .content .text p {
+  padding: 15px;
   font-size: 18px;
   line-height: 25px;
   margin: 10px 0;
